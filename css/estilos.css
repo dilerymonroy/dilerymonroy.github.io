@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url("/imagenes/1.gif");
+
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo {
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 600px;
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fcacff4f, #4568dc2c), url(../imagenes/banner.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fcacff4f, #4568dc2c), url(../imagenes/banner.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.textos-header h1,
+.textos-header h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* sobre ellas */
+.contenedor-sobre-ellas {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contenedor-sobre-ellas .contenido-textos {
+
+    width: 48%;
+
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #4d0688;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    margin-right: 5px;
+}
+
+.contenido-textos {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* galeria */
+.conocelas {
+    background: #f2f2f2;
+}
+
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+    width: 40%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.imagen-port>img {
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+/* datos curiosos */
+
+.cards {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cards .card {
+    background: #4d06884c;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    margin-left: 140px;
+}
+
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+
+
+}
+
+.cards .card>img.contenido-texto-card {
+    color: #fff;
+    width: 60%;
+}
+
+
+/* sigue informandote */
+.servicio-cont,
+.servicio-cont2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.servicio-cont2 {
+    text-align: justify;
+    color: #000000;
+    margin: 10px 0;
+}
+
+
+/*foooter */
+footer {
+    background: rgba(166, 39, 239, 0.419);
+    background: linear-gradient(0deg, rgb(180, 9, 185) 0%, rgb(166, 11, 255) 55%);
+    padding: 60px 0;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo h2,
+.content-foo p {
+    color: #fff;
+    text-align: center;
+}
+
+
+.titulo-final {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #94e979;
+    text-align: center;
+}
